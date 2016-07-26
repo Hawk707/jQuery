@@ -18,4 +18,9 @@ $(document).ready(function(){
 	
 	$("em").addClass("selected");
 	$("#myid").addClass("highlight");
+	
+	//Traversing starts here:
+	$("li").eq(2).addClass("selected");
+	$("li").filter(".middle").addClass("selected");
+	$("p").find("span").addClass("selected");
 });
