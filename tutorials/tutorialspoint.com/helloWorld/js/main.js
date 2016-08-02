@@ -14,7 +14,7 @@ $(document).ready(function(){
 	var title = $("em").attr("title");
 	$("#divid").text(title);
 	
-	$("#myimg").attr("src", "images/jquery.jpg");
+	//$("#myimg").attr("src", "images/jquery.jpg");
 	
 	$("em").addClass("selected");
 	$("#myid").addClass("highlight");
@@ -23,4 +23,10 @@ $(document).ready(function(){
 	$("li").eq(2).addClass("selected");
 	$("li").filter(".middle").addClass("selected");
 	$("p").find("span").addClass("selected");
+	
+	//CSS Selectors starts here:
+	$("#1").css("color", "red");
+	$("#myul").find("li").eq(3).css({"color":"red", "background-color":"green"});
+	$("#div1").width(100);
+	$("#div1").css("background-color", "blue");
 });
