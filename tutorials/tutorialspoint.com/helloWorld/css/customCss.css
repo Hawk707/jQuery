@@ -5,3 +5,23 @@
 .selectorDiv{
 	width:70px; height:50px; float:left; margin:5px; background:red; cursor:pointer;
 }
+
+#division{ margin:10px;
+           padding:12px; 
+		   border:2px solid #666; 
+		   width:60px;
+		 }
+		 
+.divM{
+	margin:10px;
+	padding:12px; 
+	border:2px solid #666; 
+	width:60px;
+}
+
+.divD{
+	margin:10px;
+	padding:12px; 
+	border:2px solid #666; 
+	width:60px;
+}
