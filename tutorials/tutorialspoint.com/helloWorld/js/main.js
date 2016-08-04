@@ -44,4 +44,9 @@ $(document).ready(function(){
 	$(".divD").click(function(){
 		$(this).before('<div class="divD"></div>');
 	});
+	
+	//Events Handling starts here:
+	$(".divE").bind('click', function(event){
+		alert('Hi there!');
+	});
 });
