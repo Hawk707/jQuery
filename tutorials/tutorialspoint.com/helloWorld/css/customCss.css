@@ -32,3 +32,9 @@
 	border:2px solid #666; 
 	width:60px;
 }
+
+.mydivEffect{
+	margin:10px;padding:12px; border:2px solid #666; width:100px; height:100px;
+}
+
+.clickme{ margin:10px;padding:12px; border:2px solid #666; width:100px; height:50px;}

@@ -69,5 +69,19 @@ $(document).ready(function(){
                $("#stage2").load('/jquery/result.php', {"name":name} );
             });
 	
+	//Effects
+	$("#hide").click(function(event){
+		$(".mydivEffect").hide(1000);
+	});
 	
+	$("#show").click(function(event){
+		$(".mydivEffect").show(1000);
+	});
+
+            $(".clickme").click(function(event){
+               $(".target").toggle('slow', function(){
+                  $(".log").text('Transition Complete');
+               });
+            });
+
 });
