@@ -2,6 +2,10 @@
    <head>
       <title>The jQuery Example</title>
       <script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	  <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	  <link   href = "http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+      <script src = "http://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
       <script type = "text/javascript" src = "js/main.js"></script>  
 	  <link rel="stylesheet" type="text/css" href="css/customCss.css">
    </head>
@@ -139,7 +143,7 @@
 		<input id = "hide" type = "button" value = "Hide" />
 		<input id = "show" type = "button" value = "Show" />
 		<!--Effect ends here-->		
-		</body>
+	
 		
 		<div class = "content">
 			<div class = "clickme">Click Me</div>
@@ -148,5 +152,63 @@
 			</div>
 			<div class "log"></div>
 		</div>
+		<!--Interation starts here -->
+		<p>-----------------------INSTERACTION-----------------------</p>
+		<!--Interation starts here -->
+		<div id = "draggable" class = "ui-widget-content">
+			<p class = "back">Drag</p>
+		</div>
+
+		<div id = "droppable" class = "ui-widget-header">
+			<p style = "background-color: aquamarine;height: 50;">Drop here</p>
+		</div>
+		
+		<!--Resizeable-->
+		<br>
+		<div id = "resizable-14" class = "ui-widget-content"> 
+			<h3 class = "ui-widget-header">Resize !!</h3>
+		</div><br>
+			
+		<span id = "resizable-15"></span><br>
+		<span id = "resizable-16"></span>
+		
+		<!--selectable-->
+		<p>selectable</p>
+		<ol id = "selectable">
+			<li class = "ui-widget-content">Item 1</li>
+			<li class = "ui-widget-content">Item 2</li>
+			<li class = "ui-widget-content">Item 3</li>
+			<li class = "ui-widget-content">Item 4</li>
+			<li class = "ui-widget-content">Item 5</li>
+			<li class = "ui-widget-content">Item 6</li>
+			<li class = "ui-widget-content">Item 7</li>
+		</ol>
+		
+		<!--sortable-->
+		<p>sortable</p>
+		<ul id = "sortable">
+			<li class = "ui-state-default">
+				<span class = "ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1
+			</li>
+			<li class = "ui-state-default">
+				<span class = "ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2
+			</li>
+			<li class = "ui-state-default">
+				<span class = "ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3
+			</li>
+			<li class = "ui-state-default">
+				<span class = "ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4
+			</li>
+			<li class = "ui-state-default">
+				<span class = "ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5
+			</li>
+			<li class = "ui-state-default">
+				<span class = "ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6
+			</li>
+			<li class = "ui-state-default">
+				<span class = "ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7
+			</li>
+		
+	</body>
 	
 </html>

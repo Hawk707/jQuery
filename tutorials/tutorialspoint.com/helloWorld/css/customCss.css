@@ -38,3 +38,43 @@
 }
 
 .clickme{ margin:10px;padding:12px; border:2px solid #666; width:100px; height:50px;}
+
+#draggable { width: 150px; height: 150px; padding: 0.5em; }
+padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+#droppable { width: 150px; height: 150px; 
+            padding: 0.5em; float: left; margin: 10px; }
+.back{
+            background-color: lightgrey;
+            width: 50px;
+            padding: 25px;
+            border: 25px solid navy;
+            margin: 25px;
+         }
+
+         .ui-widget-header {
+            background:#b9cd6d;
+            border: 1px solid #b9cd6d;
+            color: #FFFFFF;
+            font-weight: bold;
+         }
+			
+         .ui-widget-content {
+            background: #cedc98;
+            border: 1px solid #DDDDDD;
+            color: #333333;
+         }
+			
+         #resizable-14{ width: 150px; height: 150px; 
+            padding: 0.5em;text-align: center; margin: 0; }
+			
+         #feedback { font-size: 1.4em; }
+         #selectable .ui-selecting { background: #FECA40; }
+         #selectable .ui-selected { background: #F39814; color: white; }
+         #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+         #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+		 
+		 
+		          #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+         #sortable li { margin: 0 3px 3px 3px; padding: 0.4em;
+            padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+         #sortable li span { position: absolute; margin-left: -1.3em; }

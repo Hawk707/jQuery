@@ -83,5 +83,46 @@ $(document).ready(function(){
                   $(".log").text('Transition Complete');
                });
             });
+	//Interaction
+	
+	$(function(){
+		//Drag-able:
+		$("#draggable").draggable();
+		//Drop-able:
+		$("#droppable").droppable({
+			drop: function(event, ui){
+				$(this).addClass("ui-state-highlight").find("p").html("Dropped!");
+			}
+		});
+	});
+	
+	//Interactino: resizable:
+         $(function() {
+			
+            $( "#resizable-14" ).resizable({
+				
+               create: function( event, ui ) {
+                  $("#resizable-15").text ("I'm Created!!");
+               },
 
+               resize: function (event, ui) {
+                  $("#resizable-16").text ("top = " + ui.position.top +
+                     ", left = " + ui.position.left +
+                     ", width = " + ui.size.width +
+                     ", height = " + ui.size.height);
+               }
+            });
+				
+         });
+	
+	//Interactino: selectable
+	$(function(){
+		$("#selectable").selectable();
+	});
+
+	//Interactino: sortable
+	$(function(){
+		$("#sortable").sortable();
+		$("#sortable").disableSelection();
+	});
 });
