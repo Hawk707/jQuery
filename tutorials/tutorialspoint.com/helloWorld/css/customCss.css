@@ -78,3 +78,27 @@ padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
          #sortable li { margin: 0 3px 3px 3px; padding: 0.4em;
             padding-left: 1.5em; font-size: 1.4em; height: 18px; }
          #sortable li span { position: absolute; margin-left: -1.3em; }
+		 
+.ui-menu { width: 150px; }
+
+         fieldset {
+            border: 0;
+         }
+			
+         label {
+            display: block;
+            margin: 30px 0 0 0;
+         }
+			
+         select {
+            width: 200px;
+         }
+			
+         .overflow {
+            height: 200px;
+         }
+
+         label {
+            display: inline-block;
+            width: 15em;
+         }

@@ -125,4 +125,71 @@ $(document).ready(function(){
 		$("#sortable").sortable();
 		$("#sortable").disableSelection();
 	});
+	
+	//accordion
+	$( "#accordion" ).accordion();
+	
+	//Autocomplete
+	            var availableTags = [
+               "ActionScript",
+               "AppleScript",
+               "Asp",
+               "BASIC",
+               "C",
+               "C++",
+               "Clojure",
+               "COBOL",
+               "ColdFusion",
+               "Erlang",
+               "Fortran",
+               "Groovy",
+               "Haskell",
+               "Java",
+               "JavaScript",
+               "Lisp",
+               "Perl",
+               "PHP",
+               "Python",
+               "Ruby",
+               "Scala",
+               "Scheme"
+            ];
+				
+            $( "#tags" ).autocomplete({
+               source: availableTags
+            });
+	
+	//Date Picker
+	$( "#datepicker" ).datepicker();
+	
+	//Dialog
+	$( "#dialog" ).dialog();
+	
+	//Menue
+	$( "#menu" ).menu();
+	
+	//Progress Bar
+	$( "#progressbar" ).progressbar({
+    value: 37
+	});
+	
+	//Widget Select Menu
+         $(function() {
+            $( "#speed" ).selectmenu();
+            $( "#files" ).selectmenu();
+            $( "#number" ).selectmenu().selectmenu( "menuWidget" ).addClass( "overflow" );
+         });
+			
+	//Slidebar
+	$( "#slider" ).slider();
+	
+	//tabs
+         $(function() {
+            $( "#tabs" ).tabs();
+         });
+		 
+	//tooltip
+         $(function() {
+            $( document ).tooltip();
+         });
 });

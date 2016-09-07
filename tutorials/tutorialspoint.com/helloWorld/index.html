@@ -4,10 +4,14 @@
       <script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	  <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 	  <link   href = "http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
-      <script src = "http://code.jquery.com/jquery-1.10.2.js"></script>
-      <script src = "http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	  <link   rel  = "stylesheet" href = "https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
+      <script src  = "http://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src  = "http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
       <script type = "text/javascript" src = "js/main.js"></script>  
 	  <link rel="stylesheet" type="text/css" href="css/customCss.css">
+	  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+	  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
    </head>
 	
    <body>
@@ -208,7 +212,277 @@
 			<li class = "ui-state-default">
 				<span class = "ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7
 			</li>
+			
+		<!--Accordion Widget-->
+		<p>Accordion Widget</p>	
+      <div id = "accordion">
 		
+         <h3>Android</h3>
+			
+         <div>
+            <p>
+               Android is an open source and Linux-based operating system for
+                  mobile devices such as smartphones and tablet computers. 
+                  Android was developed by the Open Handset Alliance, led by 
+                  Google, and other companies.
+            </p>
+         </div>
+			
+         <h3>CSS</h3>
+			
+         <div>
+            <p>
+               CSS is the acronym for "Cascading Style Sheet". This 
+                  tutorial covers both the versions CSS1,CSS2 and CSS3, 
+                  and gives a complete understanding of CSS,
+                  starting from its basics to advanced concepts.
+            </p>
+         </div>
+			
+         <h3>AngularJS</h3>
+			
+         <div>
+            <p>
+               AngularJS is a very powerful JavaScript library. It is used in 
+                  Single Page Application (SPA) projects. It extends HTML DOM
+                  with additional attributes and makes it more responsive to 
+                  user actions. AngularJS is open source, completely free, 
+                  and used by thousands of developers around the world.
+                  It is licensed under the Apache license version 2.0.
+            </p>
+				
+            <ul>
+               <li>List item one</li>
+               <li>List item two</li>
+               <li>List item three</li>
+            </ul>
+				
+         </div>
+			
+         <h3>PHP</h3>
+			
+         <div>
+            <p>
+               The PHP Hypertext Preprocessor (PHP) is a programming language 
+                  that allows web developers to create dynamic content that
+                  interacts with databases. PHP is basically used for developing 
+                  web based software applications. This tutorial helps you to 
+                  build your base with PHP.
+            </p>
+				
+            <p>
+               Before proceeding with this tutorial you should have at least basic 
+                  understanding of computer programming, Internet, Database, and 
+                  MySQL etc is very helpful.
+            </p>
+				
+         </div>
+			
+      </div>
+		<!--Autocomplete-->
+		<p>Autocomplete</p>	
+      <div class = "ui-widget">
+         <label for = "tags">Tags: </label>
+         <input id = "tags">
+      </div>	
+
+		<!--Date picker-->
+		<p>Date picker</p>	
+      <div>
+		<p>Date: <input type = "text" id = "datepicker"></p>
+      </div>
+
+		<!--Dialog-->
+		<p>Dialog</p>		  
+      <div id = "dialog" title = "Basic dialog">
+         <p>This is the default dialog which is useful for displaying
+            information. The dialog window can be moved, resized and closed with
+            the 'x' icon.</p>
+      </div>
+
+		<!--Menu-->
+		<p>Menu: Not working the theme</p>	
+      <div>
+      <ul id = "menu">
+         <li class = "ui-state-disabled">Team</li>
+         <li>Gopal K verma</li>
+         <li>Omer</li>
+         <li>Khaleel</li>
+			
+         <li>Prasanth
+			
+            <ul>
+               <li class = "ui-state-disabled">Krishna</li>
+               <li>Raju</li>
+               <li>Sairamkrishna </li>
+            </ul>
+				
+         </li>
+			
+         <li>Vineeth</li>
+			
+         <li>Rajeev
+            <ul>
+               <li>Lakshmi
+                  <ul>
+                     <li>Kiran</li>
+                     <li>Sai</li>
+                     <li>Javeed</li>
+                  </ul>
+               </li>
+					
+               <li>Raju
+                  <ul>
+                     <li>Arshad</li>
+                     <li>Johar</li>
+                     <li>Althamas</li>
+                  </ul>
+               </li>
+					
+               <li>Gopal</li>
+            </ul>
+         </li>
+			
+         <li class = "ui-state-disabled">Santosh</li>
+			
+      </ul>
+      </div>
+
+		<!--Widget Progress Bar-->
+		<p>Widget Progress Bar</p>	
+      <div>
+		<div id = "progressbar"></div>
+      </div>
+
+		<!--Widget Select Menu-->
+		<p>Widget Select Menu</p>	
+      <div>
+      <div class = "demo">
+ 
+         <form action = "#">
+ 
+            <fieldset>
+		
+               <label for = "speed">Select a speed</label>
+			
+               <select name = "speed" id = "speed">
+                  <option>Slower</option>
+                  <option>Slow</option>
+                  <option selected = "selected">Medium</option>
+                  <option>Fast</option>
+                  <option>Faster</option>
+               </select>
+ 
+               <label for = "files">Select a file</label>
+					
+               <select name = "files" id = "files">
+					
+                  <optgroup label = "Scripts">
+                     <option value = "jquery">jQuery.js</option>
+                     <option value = "jqueryui">ui.jQuery.js</option>
+                  </optgroup>
+						
+                  <optgroup label = "Other files">
+                     <option value = "somefile">Some unknown file</option>
+                     <option value = "someotherfile">Some other file with a
+                        very long option text</option>
+                  </optgroup>
+						
+               </select>
+ 
+               <label for = "number">Select a number</label>
+					
+               <select name = "number" id = "number">
+                  <option>1</option>
+                  <option selected = "selected">2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                  <option>19</option>
+               </select>
+					
+            </fieldset>
+ 
+         </form>
+ 
+      </div>
+      </div>
+
+		<!--Widget Slider-->
+		<p>Widget Slider</p>	
+      <div>
+		<div id = "slider"></div>
+      </div>
+
+		<!--Widget Tab-->
+		<p>Widget Tab</p>	
+      <div>
+      <div id = "tabs">
+		
+         <ul>
+            <li><a href = "#tabs-1">Android</a></li>
+            <li><a href = "#tabs-2">CSS</a></li>
+            <li><a href = "#tabs-3">AngularJS</a></li>
+         </ul>
+			
+         <div id = "tabs-1">
+            <p>Android is an open source and Linux-based operating system 
+               for mobile devices such as smartphones and tablet computers. 
+               Android was developed by the Open Handset Alliance, led by Google, 
+               and other companies.</p>
+         </div>
+			
+         <div id = "tabs-2">
+            <p>CSS is the acronym for "Cascading Style Sheet". This
+               tutorial covers both the versions CSS1,CSS2 and CSS3, and gives a
+               complete understanding of CSS,starting from its basics to advanced 
+               concepts.</p>
+         </div>
+			
+         <div id = "tabs-3">
+            <p>AngularJS is a very powerful JavaScript library. It is used
+               in Single Page Application (SPA) projects. It extends HTML DOM 
+               with additional attributes and makes it more responsive to user 
+               actions. AngularJS is open source,completely free, and used by
+               thousands of developers around the world. It is licensed under 
+               the Apache license version 2.0.</p>
+         </div>
+			
+      </div>
+      </div>
+
+		<!--Widget Tooltip-->
+		<p>Widget Tooltip</p>	
+      <div>
+      <p><a href = "#" title = "Tutorials point india Pvt ltd">
+         Tutorials point</a> Free tutorials and reference manuals with
+         examples for Concordion, 5G, JBPM5, SAP, Agile, SVG, Web Icons, KDB+,
+         Web Analytics, Google Maps, Joomla, Self</p>
+			
+      <p><a href = "http://www.tutorialspoint.com/jquery/index.htm"
+         title = "J Query tutorials"> J Query</a> is a fast and 
+         concise JavaScript library created by John Resig in 2006. 
+         jQuery simplifies HTML document traversing, event handling,  
+         animating, and Ajax interactions for Rapid Web Development.</p>
+			
+      <p><label for = "age">your tutorials details</label>
+         <input id = "age" title = "Please enter your tutorial name. 
+         We will search in our data base"></p>
+      </div>
+	  
 	</body>
 	
 </html>
